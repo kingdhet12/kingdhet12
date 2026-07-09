@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi katalog produk B2B</title>
+  <desc id="desc">Ilustrasi dashboard katalog produk perusahaan dengan kartu produk dan grafik.</desc>
+  <rect width="900" height="680" rx="34" fill="#F4F7FA"/>
+  <rect x="70" y="68" width="760" height="520" rx="30" fill="#ffffff" stroke="#DBE4EC" stroke-width="3"/>
+  <rect x="70" y="68" width="760" height="82" rx="30" fill="#0F4C81"/>
+  <circle cx="118" cy="109" r="12" fill="#BFD8EA"/>
+  <circle cx="156" cy="109" r="12" fill="#BFD8EA"/>
+  <circle cx="194" cy="109" r="12" fill="#BFD8EA"/>
+  <rect x="250" y="96" width="230" height="20" rx="10" fill="#ffffff" opacity=".9"/>
+  <rect x="108" y="192" width="280" height="320" rx="22" fill="#E8F1F8"/>
+  <rect x="136" y="222" width="224" height="132" rx="18" fill="#ffffff"/>
+  <path d="M170 320h156M170 284h96M170 248h126" stroke="#0F4C81" stroke-width="14" stroke-linecap="round"/>
+  <rect x="136" y="388" width="94" height="76" rx="14" fill="#0F4C81"/>
+  <rect x="252" y="388" width="108" height="76" rx="14" fill="#1F9BB4"/>
+  <rect x="432" y="192" width="330" height="142" rx="22" fill="#ffffff" stroke="#DBE4EC" stroke-width="3"/>
+  <circle cx="488" cy="263" r="34" fill="#E8F1F8"/>
+  <path d="M474 264h28M488 250v28" stroke="#0F4C81" stroke-width="9" stroke-linecap="round"/>
+  <rect x="548" y="230" width="150" height="16" rx="8" fill="#162233"/>
+  <rect x="548" y="266" width="176" height="12" rx="6" fill="#9AABBC"/>
+  <rect x="548" y="294" width="118" height="12" rx="6" fill="#C9D4DE"/>
+  <rect x="432" y="370" width="330" height="142" rx="22" fill="#ffffff" stroke="#DBE4EC" stroke-width="3"/>
+  <path d="M478 472l52-60 54 34 70-72 58 34" fill="none" stroke="#1F9BB4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="522" y="552" width="180" height="22" rx="11" fill="#C9D4DE"/>
+  <rect x="214" y="592" width="472" height="18" rx="9" fill="#DBE4EC"/>
+</svg>

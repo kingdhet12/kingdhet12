@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog produk perusahaan B2B modern untuk kebutuhan bisnis dan industri.">
+  <title>NusaPro Industrial | Katalog Produk Perusahaan</title>
+
+  <!-- Google Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Favicon dan CSS utama -->
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a href="#home" class="navbar__brand" aria-label="NusaPro Industrial Home">
+        <img src="assets/logo/logo.svg" alt="Logo NusaPro Industrial" class="navbar__logo">
+        <span>NusaPro Industrial</span>
+      </a>
+
+      <button class="navbar__toggle" id="navbarToggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="navbar__menu" id="navbarMenu">
+        <li><a href="#home" class="navbar__link active">Home</a></li>
+        <li><a href="#produk" class="navbar__link">Produk</a></li>
+        <li><a href="#tentang" class="navbar__link">Tentang Kami</a></li>
+        <li><a href="#keunggulan" class="navbar__link">Keunggulan</a></li>
+        <li><a href="#kontak" class="navbar__link">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content fade-in">
+          <span class="section-label">Solusi Pengadaan B2B</span>
+          <h1>Katalog Produk Perusahaan</h1>
+          <p class="hero__subtitle">
+            Kami menyediakan berbagai produk berkualitas untuk kebutuhan bisnis dan industri.
+          </p>
+          <p class="hero__description">
+            Temukan pilihan produk elektronik, mesin, furniture, alat industri, dan sparepart
+            dengan standar korporat, dukungan sales profesional, serta pengiriman yang terukur.
+          </p>
+          <div class="hero__actions">
+            <a href="#produk" class="button button--primary">
+              <i class="fa-solid fa-boxes-stacked"></i>
+              Lihat Produk
+            </a>
+            <a href="#kontak" class="button button--secondary">
+              <i class="fa-solid fa-headset"></i>
+              Hubungi Kami
+            </a>
+          </div>
+          <div class="hero__metrics" aria-label="Ringkasan perusahaan">
+            <div>
+              <strong>12+</strong>
+              <span>Kategori Produk</span>
+            </div>
+            <div>
+              <strong>500+</strong>
+              <span>Klien Bisnis</span>
+            </div>
+            <div>
+              <strong>24 Jam</strong>
+              <span>Respons Sales</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual fade-in">
+          <img src="assets/images/hero-illustration.svg" alt="Ilustrasi katalog produk perusahaan B2B">
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section class="products section" id="produk">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Katalog</span>
+          <h2>Produk Unggulan</h2>
+          <p>
+            Pilih produk berdasarkan kategori atau cari langsung berdasarkan nama produk.
+          </p>
+        </div>
+
+        <div class="product-tools reveal" aria-label="Filter dan pencarian produk">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="productSearch" placeholder="Cari nama produk..." aria-label="Cari produk">
+          </div>
+
+          <div class="filter-buttons" id="filterButtons" aria-label="Filter kategori produk">
+            <button class="filter-button active" type="button" data-category="Semua">Semua</button>
+            <button class="filter-button" type="button" data-category="Elektronik">Elektronik</button>
+            <button class="filter-button" type="button" data-category="Mesin">Mesin</button>
+            <button class="filter-button" type="button" data-category="Furniture">Furniture</button>
+            <button class="filter-button" type="button" data-category="Alat Industri">Alat Industri</button>
+            <button class="filter-button" type="button" data-category="Sparepart">Sparepart</button>
+          </div>
+        </div>
+
+        <div class="product-summary reveal">
+          <p id="productCount">Menampilkan 12 produk</p>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section class="about section section--muted" id="tentang">
+      <div class="container about__grid">
+        <div class="about__content reveal">
+          <span class="section-label">Tentang Kami</span>
+          <h2>Mitra Pengadaan Produk Industri yang Terpercaya</h2>
+          <p>
+            NusaPro Industrial adalah perusahaan penyedia produk B2B untuk kebutuhan bisnis,
+            manufaktur, perkantoran, dan operasional industri. Kami berfokus pada pengadaan
+            produk berkualitas dengan proses yang transparan, cepat, dan mudah dipantau.
+          </p>
+          <p>
+            Dengan jaringan supplier yang luas dan tim sales berpengalaman, kami membantu
+            perusahaan memilih produk yang sesuai kebutuhan, anggaran, serta standar operasional.
+          </p>
+        </div>
+
+        <div class="about__cards">
+          <article class="info-card reveal">
+            <div class="info-card__icon">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <div>
+              <h3>Visi</h3>
+              <p>
+                Menjadi mitra pengadaan B2B yang modern, terpercaya, dan berorientasi pada
+                kualitas layanan jangka panjang.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card reveal">
+            <div class="info-card__icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div>
+              <h3>Misi</h3>
+              <p>
+                Menyediakan produk bisnis dan industri yang tepat guna, kompetitif, mudah
+                dipesan, serta didukung layanan konsultasi profesional.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section class="advantages section" id="keunggulan">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Keunggulan</span>
+          <h2>Mengapa Memilih Kami</h2>
+          <p>
+            Layanan kami dirancang untuk mendukung kebutuhan pengadaan perusahaan secara efisien.
+          </p>
+        </div>
+
+        <div class="advantage-grid">
+          <article class="advantage-card reveal">
+            <i class="fa-solid fa-award"></i>
+            <h3>Produk Berkualitas</h3>
+            <p>Produk dikurasi dari supplier tepercaya dengan standar kualitas yang konsisten.</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <i class="fa-solid fa-tags"></i>
+            <h3>Harga Kompetitif</h3>
+            <p>Penawaran fleksibel untuk pembelian perusahaan, grosir, dan kebutuhan proyek.</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Garansi</h3>
+            <p>Dukungan garansi dan after-sales untuk produk tertentu sesuai ketentuan supplier.</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Pengiriman Cepat</h3>
+            <p>Koordinasi pengiriman terencana untuk kebutuhan kantor, pabrik, dan gudang.</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Tim Profesional</h3>
+            <p>Sales dan support siap membantu pemilihan produk berdasarkan kebutuhan bisnis.</p>
+          </article>
+
+          <article class="advantage-card reveal">
+            <i class="fa-solid fa-comments"></i>
+            <h3>Pelayanan Terbaik</h3>
+            <p>Komunikasi jelas, respons cepat, dan proses quotation yang mudah ditindaklanjuti.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section class="contact section section--muted" id="kontak">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Kontak</span>
+          <h2>Diskusikan Kebutuhan Produk Anda</h2>
+          <p>
+            Kirim kebutuhan produk, volume pembelian, atau pertanyaan Anda kepada tim sales kami.
+          </p>
+        </div>
+
+        <div class="contact__grid">
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Nama lengkap" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="nama@perusahaan.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Nomor HP</label>
+              <input type="tel" id="phone" name="phone" placeholder="+62 812 0000 0000" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tuliskan kebutuhan produk Anda" required></textarea>
+            </div>
+
+            <button type="submit" class="button button--primary">
+              <i class="fa-solid fa-paper-plane"></i>
+              Kirim Pesan
+            </button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-info reveal" aria-label="Informasi kontak perusahaan">
+            <article>
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h3>Alamat</h3>
+                <p>Jl. Industri Raya No. 88, Jakarta Selatan, Indonesia</p>
+              </div>
+            </article>
+
+            <article>
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>sales@nusaproindustrial.co.id</p>
+              </div>
+            </article>
+
+            <article>
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>+62 811-9000-2468</p>
+              </div>
+            </article>
+
+            <article>
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <h3>Jam Operasional</h3>
+                <p>Senin - Jumat, 08.00 - 17.00 WIB</p>
+              </div>
+            </article>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Detail Produk -->
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal__overlay" data-close-modal></div>
+    <div class="modal__content" role="document">
+      <button class="modal__close" type="button" aria-label="Tutup detail produk" data-close-modal>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal__grid">
+        <img src="assets/images/product-electronic-control-panel.svg" alt="" class="modal__image" id="modalImage">
+        <div class="modal__body">
+          <span class="modal__category" id="modalCategory">Kategori</span>
+          <h2 id="modalTitle">Nama Produk</h2>
+          <p class="modal__price" id="modalPrice">Harga</p>
+          <p class="modal__description" id="modalDescription">Deskripsi produk.</p>
+          <h3>Spesifikasi</h3>
+          <ul class="modal__specs" id="modalSpecs"></ul>
+          <a href="#kontak" class="button button--primary" id="modalSalesButton">
+            <i class="fa-solid fa-phone-volume"></i>
+            Hubungi Sales
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back To Top -->
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo/logohp.png" alt="Logo NusaPro Industrial">
+        <div>
+          <h2>Hoptech Indonesia Jaya</h2>
+          <p>Partner pengadaan produk industri dan bisnis modern.</p>
+        </div>
+      </div>
+
+      <ul class="footer__menu">
+        <li><a href="#home">Homess</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#keunggulan">Keunggulan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <div class="footer__social" aria-label="Social media">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>Copyright © 2026 NusaPro Industrial. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript utama -->
+  <script src="script.js"></script>
+</body>
+</html>

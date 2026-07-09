@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Warehouse Safety Barrier</title>
+  <desc id="desc">Ilustrasi barrier keselamatan gudang.</desc>
+  <rect width="800" height="600" fill="#F4F7FA"/>
+  <rect x="140" y="200" width="520" height="62" rx="31" fill="#0F4C81"/>
+  <rect x="140" y="328" width="520" height="62" rx="31" fill="#0F4C81"/>
+  <rect x="170" y="164" width="58" height="280" rx="24" fill="#1F9BB4"/>
+  <rect x="572" y="164" width="58" height="280" rx="24" fill="#1F9BB4"/>
+  <path d="M260 231h90M450 231h90M260 359h90M450 359h90" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <rect x="114" y="450" width="128" height="32" rx="16" fill="#162233"/>
+  <rect x="558" y="450" width="128" height="32" rx="16" fill="#162233"/>
+</svg>

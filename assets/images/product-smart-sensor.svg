@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Sensor Module</title>
+  <desc id="desc">Ilustrasi modul sensor pintar industri.</desc>
+  <rect width="800" height="600" fill="#F4F7FA"/>
+  <rect x="210" y="112" width="380" height="344" rx="38" fill="#ffffff" stroke="#DBE4EC" stroke-width="6"/>
+  <rect x="270" y="172" width="260" height="124" rx="26" fill="#0F4C81"/>
+  <circle cx="330" cy="234" r="28" fill="#1F9BB4"/>
+  <circle cx="400" cy="234" r="28" fill="#BFD8EA"/>
+  <circle cx="470" cy="234" r="28" fill="#ffffff"/>
+  <path d="M284 358h232M316 394h168" stroke="#617083" stroke-width="16" stroke-linecap="round"/>
+  <path d="M210 210h-64M210 300h-64M210 390h-64M590 210h64M590 300h64M590 390h64" stroke="#0F4C81" stroke-width="14" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Conveyor Belt Spare Kit</title>
+  <desc id="desc">Ilustrasi kit sparepart conveyor.</desc>
+  <rect width="800" height="600" fill="#F4F7FA"/>
+  <rect x="128" y="260" width="544" height="96" rx="48" fill="#162233"/>
+  <rect x="170" y="282" width="460" height="52" rx="26" fill="#0F4C81"/>
+  <circle cx="210" cy="308" r="48" fill="#ffffff" stroke="#C9D4DE" stroke-width="10"/>
+  <circle cx="590" cy="308" r="48" fill="#ffffff" stroke="#C9D4DE" stroke-width="10"/>
+  <path d="M258 214h284M288 406h224" stroke="#1F9BB4" stroke-width="20" stroke-linecap="round"/>
+  <rect x="318" y="152" width="164" height="62" rx="18" fill="#ffffff" stroke="#C9D4DE" stroke-width="5"/>
+  <rect x="342" y="406" width="116" height="60" rx="18" fill="#ffffff" stroke="#C9D4DE" stroke-width="5"/>
+</svg>

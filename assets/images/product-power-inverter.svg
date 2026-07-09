@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial Power Inverter</title>
+  <desc id="desc">Ilustrasi inverter daya industri.</desc>
+  <rect width="800" height="600" fill="#E8F1F8"/>
+  <rect x="226" y="88" width="348" height="424" rx="34" fill="#ffffff" stroke="#C9D4DE" stroke-width="6"/>
+  <rect x="276" y="146" width="248" height="96" rx="18" fill="#0F4C81"/>
+  <path d="M328 194h144" stroke="#BFD8EA" stroke-width="16" stroke-linecap="round"/>
+  <rect x="288" y="292" width="86" height="70" rx="16" fill="#1F9BB4"/>
+  <rect x="426" y="292" width="86" height="70" rx="16" fill="#F4F7FA" stroke="#DBE4EC" stroke-width="4"/>
+  <path d="M296 414h208M324 450h152" stroke="#617083" stroke-width="16" stroke-linecap="round"/>
+  <path d="M226 178h-56M574 178h56" stroke="#0F4C81" stroke-width="16" stroke-linecap="round"/>
+</svg>

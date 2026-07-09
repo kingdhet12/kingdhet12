@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Precision Bearing Set</title>
+  <desc id="desc">Ilustrasi set bearing presisi.</desc>
+  <rect width="800" height="600" fill="#E8F1F8"/>
+  <circle cx="320" cy="300" r="138" fill="#ffffff" stroke="#C9D4DE" stroke-width="24"/>
+  <circle cx="320" cy="300" r="62" fill="#E8F1F8" stroke="#0F4C81" stroke-width="18"/>
+  <circle cx="320" cy="166" r="22" fill="#1F9BB4"/>
+  <circle cx="224" cy="204" r="22" fill="#1F9BB4"/>
+  <circle cx="184" cy="300" r="22" fill="#1F9BB4"/>
+  <circle cx="224" cy="396" r="22" fill="#1F9BB4"/>
+  <circle cx="320" cy="434" r="22" fill="#1F9BB4"/>
+  <circle cx="416" cy="396" r="22" fill="#1F9BB4"/>
+  <circle cx="456" cy="300" r="22" fill="#1F9BB4"/>
+  <circle cx="416" cy="204" r="22" fill="#1F9BB4"/>
+  <rect x="510" y="206" width="122" height="188" rx="28" fill="#0F4C81"/>
+  <circle cx="571" cy="300" r="40" fill="#BFD8EA"/>
+</svg>

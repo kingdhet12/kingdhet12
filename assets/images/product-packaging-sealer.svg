@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Packaging Sealer Pro</title>
+  <desc id="desc">Ilustrasi mesin sealer kemasan.</desc>
+  <rect width="800" height="600" fill="#F4F7FA"/>
+  <rect x="124" y="244" width="552" height="136" rx="28" fill="#ffffff" stroke="#C9D4DE" stroke-width="6"/>
+  <rect x="174" y="170" width="452" height="108" rx="26" fill="#0F4C81"/>
+  <rect x="218" y="204" width="166" height="18" rx="9" fill="#ffffff"/>
+  <rect x="218" y="238" width="270" height="12" rx="6" fill="#BFD8EA"/>
+  <rect x="174" y="392" width="452" height="40" rx="20" fill="#162233"/>
+  <path d="M218 312h364" stroke="#1F9BB4" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="552" cy="224" r="22" fill="#1F9BB4"/>
+  <circle cx="610" cy="224" r="22" fill="#BFD8EA"/>
+</svg>
